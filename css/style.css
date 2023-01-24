@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_bar{
+    background-color: aquamarine;
+    padding: 20px 0px;
+}
+
+.flex_container{
+    display: flex;
+    background-color: yellow;
+    width: 80%;
+    margin: auto;
+}
+
+.col_1{
+    text-align: left;
+    width: 20%;
+    border: 1px black dashed;
+    padding: 10px 0px;
+}
+
+.col_2{
+    width: 60%;
+    text-align: center;
+    border: 1px black dashed;
+    padding: 10px;
+}
+
+.col_3{
+    width: 20%;
+    text-align: right;
+    border: 1px black dashed;
+    padding: 10px 0px;
+}
+
+ul{
+    list-style: none ;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header{
+    background-color: blue;
+    height: 400px;
+}
+
+.header{
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    background-color: pink;
+    margin-top: 30px;
+}
+
+.container{
+    padding: 20px 0px;
+}
+
+.flex_cnt{
+    display: flex;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.col_left{
+    width: 60%;
+    background-color: lightblue;
+    border: 1px black dashed;
+}
+
+.col_right{
+    width: 40%;
+    background-color: pink;
+    border: 1px black dashed;
+}
+
+.sct_grey{
+    background-color: lightgray;
+}
+
+.col_left1{
+    width: 60%;
+    background-color: pink;
+    border: 1px black dashed;
+}
+
+.col_right2{
+    width: 40%;
+    background-color: lightblue;
+    border: 1px black dashed;
+}
+
+.main_end{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    background-color: green;
+    border: 1px black dashed;
+}
+
+footer{
+    background-color: black;
+    margin-bottom: 2px;
+    padding: 20px 0px;
+}
+
+.foot_col1{
+    background-color: lightcoral;
+    flex-grow: 2;
+    border: 1px black dashed;
+}
+
+.foot_col2{
+    background-color: aqua;
+    flex-grow: 1;
+    border: 1px black dashed;
+}
+
+.foot_container{
+    background-color: aquamarine;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.foot_left{
+    background-color: lightcoral;
+    border: 1px black dashed;
+}
+
+.foot_right{
+    background-color: lightcoral;
+    border: 1px black dashed;
+}
+
