@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .top_bar{
     padding: 20px 0px;
 }
 
 .flex_container{
     display: flex;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -38,7 +42,7 @@ ul a{
 }
 
 .col_2{
-    width: 60%;
+    width: 50%;
     text-align: center;
     padding: 10px 0px;
 }
@@ -61,6 +65,7 @@ a{
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 
 .header{
@@ -95,7 +100,7 @@ p{
     font-size: 14px;
 }
 
-.header h1,p{
+.header h1,.header p{
     color: white;
     padding: 20px 0px;
 }
@@ -107,26 +112,46 @@ h1{
 
 
 .container{
-    padding: 20px 0px;
+    padding: 50px 0px;
 }
 
 .flex_cnt{
     display: flex;
     height: 300px;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 .col_left{
     width: 60%;
-    background-color: lightblue;
-    border: 1px black dashed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#item1{
+    background-image: url(../img/item1.svg);
+}
+
+#item2{
+    background-image: url(../img/item2.svg);
+    background-position: right;
+}
+
+#item3{
+    background-image: url(../img/item3.svg);
+}
+
+#star{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    padding: 20px 0px;
 }
 
 .col_right{
     width: 40%;
-    background-color: pink;
-    border: 1px black dashed;
 }
 
 .sct_grey{
@@ -134,16 +159,24 @@ h1{
 }
 
 .main_end{
-    height: 400px;
-    width: 80%;
+    width: 70%;
     margin: auto;
-    background-color: green;
-    border: 1px black dashed;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.bt_blue{
+    background-color: rgb(95,114,209);
+    color: white;
+    margin-top: 40px;
 }
 
 footer{
-    background-color: black;
-    margin-bottom: 2px;
+    background-color: rgb(26,29,31);
     padding: 20px 0px;
 }
 
@@ -151,6 +184,10 @@ footer{
     background-color: lightcoral;
     flex-grow: 2;
     border: 1px black dashed;
+}
+
+.foot_col1 img{
+    height:15px;
 }
 
 .foot_col2{
@@ -162,6 +199,7 @@ footer{
 .foot_container{
     background-color: aquamarine;
     padding: 10px 0px;
+    margin-top: 20px;
     justify-content: space-between;
 }
 
