@@ -38,7 +38,7 @@ body{
     padding: 0px 20px;
 }
 
-a,li{
+a,.col_2 li{
     display: inline-block;
 }
 
@@ -208,11 +208,10 @@ footer{
     margin-left: 30px;
 }
 
-.text_foot div{
-    color: white;
+.foot_col2 .text{
     padding: 20px 0px;
+    font-size: 14px;
 }
-
 i{
     padding: 15px 15px 0px 0px;
 }
@@ -223,6 +222,7 @@ h3,h4{
 
 .foot_container{
     padding: 10px 0px;
+    margin-top: 50px;
 }
 
 a{ 
