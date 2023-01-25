@@ -124,7 +124,7 @@ h1{
 
 
 .container{
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 
 .flex_cnt{
@@ -134,7 +134,7 @@ h1{
 }
 
 .col_left{
-    width: 60%;
+    width: 70%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@ h1{
 }
 
 .col_right{
-    width: 40%;
+    width: 30%;
 }
 
 .sct_grey{
