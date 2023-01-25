@@ -221,8 +221,8 @@ h3,h4{
 }
 
 .foot_container{
+    margin-top: 20px;
     padding: 10px 0px;
-    margin-top: 50px;
 }
 
 a{ 
@@ -238,4 +238,10 @@ ul a:hover{
 }
 
 
+.foot_col1 div, i{
+    color: white;
+}
 
+footer .text_foot{
+    border-bottom: rgb(95,114,209) 1px solid;
+}
